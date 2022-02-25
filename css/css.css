@@ -1,0 +1,35 @@
+.love{
+    color: purple;
+    display: none;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 15%;
+}
+.body{
+    margin: auto;
+    margin-top: 200px;
+    width: 600px;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px;
+    position: relative;
+    background-image: url(../img/nen.jpg);
+}
+.click{
+    width: 250px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px;
+    /* margin-top: 20%; */
+    
+}
+.but{
+    font-size: 30px;width: 200px;background-color: pink; color: black;
+    position: absolute;
+    bottom: 20px;
+}
+button:hover{
+    color: black;
+    background-color: whitesmoke;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
